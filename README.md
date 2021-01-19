@@ -1,2 +1,2 @@
 # leaf-classifier
-A Real-Time Leaf Classifier using Tensorflow
+A Real-time Leaf Classifier using Tensorflow
