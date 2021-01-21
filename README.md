@@ -1,7 +1,7 @@
 # leaf-classifier
 A Real-time Leaf Classifier using Tensorflow/Keras (mobilenet_v2)
 
-<img src="leaf_example.jpg" img align="left" alt="leaf_example"  />
+<img src="leaf_example.jpg" alt="leaf_example"  />
 
 This is a small app to classify leaves of 40 classes using the webcam. 
 
