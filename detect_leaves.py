@@ -15,9 +15,7 @@ def predict_frame(frame):
     frame = mobilenet_v2.preprocess_input(frame)
     frame = frame.reshape(1,224,224,3)
     result = model.predict(frame)
-    result_dict = {'beech' : round(result[0][0],3), 'maple' : round(result[0][1],3), 'oak' : round(result[0][2],3)}
-    result_dict_sorted = {k: v for k, v in sorted(result_dict.items(), key=lambda item: item[1], reverse=True)}
-    
+        
     return result
 
 
